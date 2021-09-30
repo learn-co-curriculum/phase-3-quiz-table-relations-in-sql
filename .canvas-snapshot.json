@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 6376,
     "show_correct_answers_last_attempt": true,
-    "version_number": 5,
+    "version_number": 6,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": "gb9b3e69c9b4cea2c57721e823dca9d3d",
@@ -101,7 +101,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/associating-tables-with-foreign-keys\">Associating Tables with Foreign Keys</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6345,
+          "id": 5508,
           "text": "",
           "html": "<p>Foreign Key</p>",
           "comments": "",
@@ -109,7 +109,7 @@
           "weight": 100.0
         },
         {
-          "id": 9358,
+          "id": 2679,
           "text": "",
           "html": "<p>Primary Key</p>",
           "comments": "",
@@ -117,7 +117,7 @@
           "weight": 0.0
         },
         {
-          "id": 6770,
+          "id": 582,
           "text": "",
           "html": "<p>Integer Key</p>",
           "comments": "",
@@ -125,7 +125,7 @@
           "weight": 0.0
         },
         {
-          "id": 2787,
+          "id": 9177,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -158,7 +158,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/associating-tables-with-foreign-keys\">Associating Tables with Foreign Keys</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3400,
+          "id": 538,
           "text": "",
           "html": "<p>Put a <code>user_id</code> foreign key on the <code>posts</code> table pointing to the <code>id</code> primary\nkey in the <code>users</code> table.</p>",
           "comments": "",
@@ -166,7 +166,7 @@
           "weight": 100.0
         },
         {
-          "id": 373,
+          "id": 8077,
           "text": "",
           "html": "<p>Put a <code>post_id</code> foreign key on the <code>users</code> table pointing to the <code>id</code> primary\nkey in the <code>posts</code> table.</p>",
           "comments": "",
@@ -174,7 +174,7 @@
           "weight": 0.0
         },
         {
-          "id": 5035,
+          "id": 2696,
           "text": "",
           "html": "<p>Create a join table that points to both <code>users</code> and <code>posts</code></p>",
           "comments": "",
@@ -182,7 +182,7 @@
           "weight": 0.0
         },
         {
-          "id": 8942,
+          "id": 1826,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -219,14 +219,14 @@
           "comments_html": "<p>Remember, in a one-to-many association, the foreign key should be on the table\nof the record that <strong>belongs to</strong> a record in the other table, in this case\nposts.</p>",
           "text": "True",
           "weight": 0,
-          "id": 7866
+          "id": 5220
         },
         {
           "comments": "",
           "comments_html": "<p>Correct! In a one-to-many association, the foreign key should be on the table\nof the record that <strong>belongs to</strong> a record in the other table, in this case\nposts.</p>",
           "text": "False",
           "weight": 100,
-          "id": 9536
+          "id": 3660
         }
       ],
       "variables": null,
@@ -254,7 +254,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/sql-joins\">SQL Joins</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4173,
+          "id": 6316,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! This will return all rows when there's at least one match in both\ntables.</p>",
@@ -262,7 +262,7 @@
           "html": "<p><code>INNER JOIN</code></p>"
         },
         {
-          "id": 4231,
+          "id": 3087,
           "text": "",
           "comments": "",
           "comments_html": "<p>Exactly! This returns all rows from the left table and the matching rows from\nthe right table.</p>",
@@ -270,7 +270,7 @@
           "html": "<p><code>LEFT (OUTER) JOIN</code></p>"
         },
         {
-          "id": 5631,
+          "id": 8461,
           "text": "",
           "comments": "",
           "comments_html": "<p>This is a valid SQL join type, but it's not supported by SQLite, and it's much\nless common than <code>INNER</code> and <code>LEFT</code> joins.</p>",
@@ -278,7 +278,7 @@
           "html": "<p><code>RIGHT JOIN</code></p>"
         },
         {
-          "id": 3393,
+          "id": 2053,
           "text": "",
           "comments": "",
           "comments_html": "<p>This is a valid SQL join type, but it's not supported by SQLite, and it's much\nless common than <code>INNER</code> and <code>LEFT</code> joins.</p>",
@@ -286,7 +286,7 @@
           "html": "<p><code>FULL JOIN</code></p>"
         },
         {
-          "id": 9258,
+          "id": 5661,
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -319,7 +319,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/creating-join-tables\">Creating Join Tables</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1867,
+          "id": 6967,
           "text": "",
           "html": "<p>Create a join table where each row relates a cocktail with a restaurant</p>",
           "comments": "",
@@ -327,7 +327,7 @@
           "weight": 100.0
         },
         {
-          "id": 5287,
+          "id": 9556,
           "text": "",
           "html": "<p>Add a <code>cocktail_id</code> column (foreign key) to the <code>restaurants</code> table</p>",
           "comments": "",
@@ -335,7 +335,7 @@
           "weight": 0.0
         },
         {
-          "id": 3749,
+          "id": 8661,
           "text": "",
           "html": "<p>Add a <code>restaurant_id</code> column (foreign key) to the <code>cocktails</code> table</p>",
           "comments": "",
@@ -343,7 +343,7 @@
           "weight": 0.0
         },
         {
-          "id": 7652,
+          "id": 6485,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -376,15 +376,15 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/sql-joins?module_item_id=143876\">SQL Joins</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6181,
+          "id": 5278,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span> <span class=\"o\">*</span> <span class=\"k\">FROM</span> <span class=\"nv\">`dogs`</span>\n<span class=\"k\">LEFT</span> <span class=\"k\">JOIN</span> <span class=\"n\">owners</span> <span class=\"k\">ON</span> <span class=\"nv\">`dogs`</span><span class=\"p\">.</span><span class=\"n\">owner_id</span> <span class=\"o\">=</span> <span class=\"n\">owners</span><span class=\"p\">.</span><span class=\"n\">id</span><span class=\"p\">;</span>\n</code></pre></div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span> <span class=\"o\">*</span> <span class=\"k\">FROM</span> <span class=\"n\">dogs</span>\n<span class=\"k\">LEFT</span> <span class=\"k\">JOIN</span> <span class=\"n\">owners</span> <span class=\"k\">ON</span> <span class=\"n\">dogs</span><span class=\"p\">.</span><span class=\"n\">owner_id</span> <span class=\"o\">=</span> <span class=\"n\">owners</span><span class=\"p\">.</span><span class=\"n\">id</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "<p>Correct! <code>dogs</code> is the left table, so all of the dogs will be returned, even if\nthey don't have an owner. Matching owners will also be returned.</p>",
           "weight": 100.0
         },
         {
-          "id": 6815,
+          "id": 2920,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span> <span class=\"o\">*</span> <span class=\"k\">FROM</span> <span class=\"n\">owners</span>\n<span class=\"k\">LEFT</span> <span class=\"k\">JOIN</span> <span class=\"n\">dogs</span> <span class=\"k\">ON</span> <span class=\"n\">dogs</span><span class=\"p\">.</span><span class=\"n\">owner_id</span> <span class=\"o\">=</span> <span class=\"n\">owners</span><span class=\"p\">.</span><span class=\"n\">id</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
@@ -392,7 +392,7 @@
           "weight": 0.0
         },
         {
-          "id": 6000,
+          "id": 9748,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight sql\"><code><span class=\"k\">SELECT</span> <span class=\"o\">*</span> <span class=\"k\">FROM</span> <span class=\"n\">dogs</span>\n<span class=\"k\">INNER</span> <span class=\"k\">JOIN</span> <span class=\"n\">owners</span> <span class=\"k\">ON</span> <span class=\"n\">dogs</span><span class=\"p\">.</span><span class=\"n\">owner_id</span> <span class=\"o\">=</span> <span class=\"n\">owners</span><span class=\"p\">.</span><span class=\"n\">id</span><span class=\"p\">;</span>\n</code></pre></div>",
           "comments": "",
@@ -400,7 +400,7 @@
           "weight": 0.0
         },
         {
-          "id": 4504,
+          "id": 4309,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -437,14 +437,14 @@
           "comments_html": "<p>Correct! To set up a many-to-many relationship, we use a join table that has\ncommon fields from two or more other tables.</p>",
           "text": "True",
           "weight": 100,
-          "id": 2375
+          "id": 7886
         },
         {
           "comments": "",
           "comments_html": "<p>A join table <strong>is</strong> used to set up a many-to-many relationship. You may want\nto review the source/s for this question.</p>",
           "text": "False",
           "weight": 0,
-          "id": 9341
+          "id": 3848
         }
       ],
       "variables": null,
