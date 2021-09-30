@@ -1,0 +1,453 @@
+{
+  "quiz": {
+    "id": 19092,
+    "title": "Table Relations in SQL Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19092",
+    "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19092?force_user=1&persist_headless=1",
+    "description": "<div>\n<div><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></div>\n<br>\n<div><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></div>\n</div>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 7,
+    "points_possible": 7.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_19092"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": "",
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19092/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19092/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19092/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19092/submission_versions",
+    "assignment_id": 129367,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6376,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 4,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": "gb9b3e69c9b4cea2c57721e823dca9d3d",
+    "question_types": [
+      "multiple_choice_question",
+      "true_false_question",
+      "multiple_answers_question",
+      "matching_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 19092,
+      "id": 120574,
+      "quiz_group_id": null,
+      "assessment_question_id": 181173,
+      "position": null,
+      "question_name": "SQL: Foreign Keys",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>What is used to associate one table to another?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/associating-tables-with-foreign-keys?module_item_id=143875\" target=\"_blank\">Associating Tables with Foreign Keys</a>&nbsp;</p>",
+      "answers": [
+        {
+          "id": 7751,
+          "text": "Foreign Key",
+          "html": "",
+          "comments": "",
+          "comments_html": "Exactly! The foreign key refers to the primary key in another table.",
+          "weight": 100.0
+        },
+        {
+          "id": 5089,
+          "text": "Primary Key",
+          "html": "",
+          "comments": "",
+          "comments_html": "Not quite. The primary key refers to the row in the current table. Which key refers to a different table?",
+          "weight": 0.0
+        },
+        {
+          "id": 5625,
+          "text": "Integer Key",
+          "html": "",
+          "comments": "",
+          "comments_html": "Not quite. It's likely that the key will be an integer, but that's not the correct name.",
+          "weight": 0.0
+        },
+        {
+          "id": 4307,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19092,
+      "id": 120575,
+      "quiz_group_id": null,
+      "assessment_question_id": 181174,
+      "position": null,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<div><span>We have two tables: users and posts. A user has many posts and a post belongs to a user. How should we relate the two tables to one another?</span></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/associating-tables-with-foreign-keys?module_item_id=143875\" target=\"_blank\">Associating Tables with Foreign Keys</a></p>",
+      "answers": [
+        {
+          "id": 8769,
+          "text": "Put a foreign key on the posts table pointing to a user in the users table",
+          "html": "",
+          "comments": "",
+          "comments_html": "Yes! We can store which user a post belongs to by having each post point to a user.",
+          "weight": 100.0
+        },
+        {
+          "id": 4916,
+          "text": "Put a foreign key on the users table pointing to the posts table",
+          "html": "",
+          "comments": "",
+          "comments_html": "Not quite. This would allow a user to have only one post.",
+          "weight": 0.0
+        },
+        {
+          "id": 8608,
+          "text": "Create a join table that points to both users and posts",
+          "html": "",
+          "comments": "",
+          "comments_html": "We can actually relate the users and posts without a join table. How can we do that?",
+          "weight": 0.0
+        },
+        {
+          "id": 4030,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19092,
+      "id": 120576,
+      "quiz_group_id": null,
+      "assessment_question_id": 183440,
+      "position": null,
+      "question_name": "SQL: Foreign Keys",
+      "question_type": "true_false_question",
+      "question_text": "<p><span>If you had a table for&nbsp;</span><code>users</code><span>&nbsp;and a table for&nbsp;</span><code>posts</code><span>, you would add the foreign key to the&nbsp;</span><code>users</code><span>&nbsp;table.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s: </strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/associating-tables-with-foreign-keys?module_item_id=143875\" target=\"_blank\">Associating Tables with Foreign Keys</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p>Remember, in a one-to-many association, the<span>&nbsp;</span>foreign key<span> should be </span>on the table of the record that<span>&nbsp;</span><strong>belongs to</strong><span>&nbsp;</span>a record in the other table, in this case posts.</p>",
+          "text": "True",
+          "weight": 0,
+          "id": 2241
+        },
+        {
+          "comments": "",
+          "comments_html": "<p>Correct! In a one-to-many association, the<span>&nbsp;</span>foreign key<span> should be </span>on the table of the record that<span>&nbsp;</span><strong>belongs to</strong><span>&nbsp;</span>a record in the other table, in this case posts.</p>",
+          "text": "False",
+          "weight": 100,
+          "id": 7425
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19092,
+      "id": 120577,
+      "quiz_group_id": null,
+      "assessment_question_id": 181175,
+      "position": null,
+      "question_name": "SQL: Joins",
+      "question_type": "multiple_answers_question",
+      "question_text": "<div><span>Which types of joins are supported by SQLite?</span></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/sql-joins?module_item_id=143876\" target=\"_blank\">SQL Joins</a></p>",
+      "answers": [
+        {
+          "id": "4883",
+          "text": "INNER JOIN",
+          "comments": "",
+          "comments_html": "Correct! This will return all rows when there's at least one match in both tables.",
+          "weight": 100.0
+        },
+        {
+          "id": "3068",
+          "text": "LEFT (OUTER) JOIN",
+          "comments": "",
+          "comments_html": "Exactly! This returns all rows from the left table and the matching rows from the right table.",
+          "weight": 100.0
+        },
+        {
+          "id": "6261",
+          "text": "RIGHT JOIN",
+          "comments": "",
+          "comments_html": "This is not supported.",
+          "weight": 0.0
+        },
+        {
+          "id": "4021",
+          "text": "FULL JOIN",
+          "comments": "",
+          "comments_html": "This is not supported.",
+          "weight": 0.0
+        },
+        {
+          "id": "9602",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19092,
+      "id": 120581,
+      "quiz_group_id": null,
+      "assessment_question_id": 181176,
+      "position": null,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<div><span>Our database has two tables: cocktails and restaurants. The same cocktail can be served by many restaurants, and each restaurant serves many different cocktails. How can we relate cocktails to restaurants? </span></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>:<a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/creating-join-tables?module_item_id=143877\" target=\"_blank\"> Creating Join Tables</a></p>",
+      "answers": [
+        {
+          "id": 7280,
+          "text": "Create a join table where each row relates a cocktail with a restaurant",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Perfect! This is a many-to-many relationship, so we need a join table that has cocktail_id and restaurant_id columns.</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 3286,
+          "text": "Add a cocktail_id column (foreign key) to the restaurants table",
+          "html": "",
+          "comments": "",
+          "comments_html": "Not quite. This would allow restaurants to serve only a single cocktail. A restaurant would belong to a cocktail.",
+          "weight": 0.0
+        },
+        {
+          "id": 4883,
+          "text": "Add a restaurant_id column (foreign key) to the cocktails table",
+          "html": "",
+          "comments": "",
+          "comments_html": "Not quite. This would mean each cocktail could be served at only one restaurant. A cocktail would belong to a restaurant.",
+          "weight": 0.0
+        },
+        {
+          "id": 2222,
+          "text": "I don't know",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19092,
+      "id": 120584,
+      "quiz_group_id": null,
+      "assessment_question_id": 181170,
+      "position": null,
+      "question_name": "SQL: Joins",
+      "question_type": "multiple_choice_question",
+      "question_text": "<div><span>We have two tables: dogs and owners. All of the owners have dogs, but not all dogs belong to an owner - some are strays. Which query will return ALL of the dogs and their matching owners?</span></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/sql-joins?module_item_id=143876\" target=\"_blank\">SQL Joins</a></p>",
+      "answers": [
+        {
+          "id": 6778,
+          "text": "",
+          "html": "<pre><code>\nSELECT * FROM Dogs\nLEFT OUTER JOIN Owners on Dogs.owner_id = Owners.id;\n</code>\n</pre>",
+          "comments": "",
+          "comments_html": "Correct! Dogs is the left table, so all of the dogs will be returned, even if they don't have an owner. Matching owners will also be returned.",
+          "weight": 100.0
+        },
+        {
+          "id": 5845,
+          "text": "",
+          "html": "<pre><code>\nSELECT * FROM Owners\nLEFT OUTER JOIN Dogs on Dogs.owner_id = Owners.id;\n</code>\n</pre>",
+          "comments": "",
+          "comments_html": "Not quite. This will actually return all of the owners and their matching dogs. Which query will give us every dog?",
+          "weight": 0.0
+        },
+        {
+          "id": 9824,
+          "text": "",
+          "html": "<pre><code>\nSELECT * FROM Dogs\nINNER JOIN Owners on Dogs.owner_id = Owners.id;\n</code></pre>",
+          "comments": "",
+          "comments_html": "<p>Not quite. This will actually only return dogs that have an owner. Which query will give us every dog?</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 6193,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19092,
+      "id": 120586,
+      "quiz_group_id": null,
+      "assessment_question_id": 183441,
+      "position": null,
+      "question_name": "SQL: Joins",
+      "question_type": "true_false_question",
+      "question_text": "<p><span>A join table creates a many-to-many relationship between data.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p>Source/s: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/creating-join-tables?module_item_id=143877\" target=\"_blank\">Creating Join Tables</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p>Correct! To set up a many-to-many association, we use a join table that has common fields from two or more other tables.</p>",
+          "text": "True",
+          "weight": 100,
+          "id": 1660
+        },
+        {
+          "comments": "",
+          "comments_html": "<p>A join table **is** used to set up a many-to-many association. <span>You may want to review the source/s for this question.</span></p>",
+          "text": "False",
+          "weight": 0,
+          "id": 7494
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
